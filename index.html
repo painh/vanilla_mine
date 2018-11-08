@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #container {
+            overflow: auto;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .cell {
+            float: left;
+            width: 15px;
+            height: 15px;
+            background-color: #aaa;
+            border-color: #000;
+            border-width: 1px;
+            margin: 0px;
+            padding: 0px;
+            border-style: solid;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id='container' :style="{width:width + 'px'}">
+        sadfasdfsdf
+        sadflkjsadflkjsafd
+    </div>
+    <button onclick="init(9,9,10)">초급</button>
+    <button onclick="init(16,16,40)">중급</button>
+    <button onclick="init(30,16,99)">고급</button>
+
+    <script src='index.js'></script>
+</body>
+
+</html>
